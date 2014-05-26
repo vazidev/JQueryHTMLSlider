@@ -1,4 +1,4 @@
-// Author: Palmani. K
+
 $(document).ready(function () {
 
     // Global declarations
