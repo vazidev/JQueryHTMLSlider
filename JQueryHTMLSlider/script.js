@@ -107,7 +107,7 @@ loadCircleImg(); //loads the function.
         //loadDescription(autoIndex++);
         {
         $(".descriptor").animate({right:'100px', top:'0', opacity:'0', height:'0px', width:'0px' }); //Hide the box with info
-  		$(".descriptor").children('p').eq(autoIndex).animate({ opacity:'0.6', height:'250px', width:'400px' }); //display the box with info
+  		$(".descriptor").animate({ opacity:'0.6', height:'250px', width:'400px' }); //display the box with info
 		}
     }, 4000);
 });       
